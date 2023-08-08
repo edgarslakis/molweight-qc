@@ -1,45 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T10:50:05.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_ETW0mL8dE1Ys5hT9hXI" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T10:58:43.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="M1cXBiDpEIaOsG4bvsMt" version="21.6.6" type="github">
   <diagram name="Page-1" id="L1FIQez9ral5AGtTdEEH">
     <mxGraphModel dx="972" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PLHJXI5mS-4dq4cflkhg-1" target="PLHJXI5mS-4dq4cflkhg-2">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="PLHJXI5mS-4dq4cflkhg-1" target="PLHJXI5mS-4dq4cflkhg-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-1" value="Sample&lt;br&gt;(concentration, volume)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-1" value="Sample&lt;br&gt;Concentration Volume" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-9" value="MW expected" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PLHJXI5mS-4dq4cflkhg-2" target="PLHJXI5mS-4dq4cflkhg-4">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-9" value="MW expected" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="PLHJXI5mS-4dq4cflkhg-2" target="PLHJXI5mS-4dq4cflkhg-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-2" value="ProteinSample&lt;br&gt;(pnumber, location)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-2" value="ProteinSample&lt;br&gt;P number&lt;br&gt;Location&lt;br&gt;Uniprot(P number) : MW expected, PTMs&lt;br&gt;Calc Quadrant(location) : quadrant" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-8" value="MW estimated" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PLHJXI5mS-4dq4cflkhg-3" target="PLHJXI5mS-4dq4cflkhg-4">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-8" value="MW estimated" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="PLHJXI5mS-4dq4cflkhg-3" target="PLHJXI5mS-4dq4cflkhg-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-3" value="Gels&lt;br&gt;(xls file)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-3" value="Gels&lt;br&gt;File&lt;br&gt;mw_extract(file) : MW estimated" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PLHJXI5mS-4dq4cflkhg-4" target="PLHJXI5mS-4dq4cflkhg-5">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="PLHJXI5mS-4dq4cflkhg-4" target="PLHJXI5mS-4dq4cflkhg-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-4" value="Quadrant&lt;br&gt;24 samples&lt;br&gt;MW fit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-4" value="Quadrant&lt;br&gt;24 samples&lt;br&gt;MW fit" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-5" value="Batch&lt;br&gt;96 samples&lt;br&gt;Pandas dataframe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-5" value="Batch&lt;br&gt;96 samples&lt;br&gt;Pandas dataframe" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-14" value="Architecture of protein sample quality control system" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-14" value="Architecture of protein sample quality control system" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="200" y="50" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PLHJXI5mS-4dq4cflkhg-15" target="PLHJXI5mS-4dq4cflkhg-3">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="PLHJXI5mS-4dq4cflkhg-15" target="PLHJXI5mS-4dq4cflkhg-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PLHJXI5mS-4dq4cflkhg-15" value="Gel Imager" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="PLHJXI5mS-4dq4cflkhg-15" value="Gel Imager" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="220" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
